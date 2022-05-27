@@ -7,7 +7,8 @@ def find_anagram(word, anagram):
     # [assignment] Add your code here
     if(sorted(word) == sorted(anagram)):
         return True
-    return False
+    else:
+         return False
 print(find_anagram("keen", "knee"))
 
 print(find_anagram("cool", "coloo"))
